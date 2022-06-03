@@ -7,6 +7,10 @@ using namespace std;
 
 class Person
 {
+        private : 
+		string martial_status;
+
+
 	public:
 		int id;
 		string name;
@@ -27,7 +31,8 @@ void Person::getDetails(void)
 	cout << "id : " << id << endl;
 	cout << "name : " << name << endl;
 	cout << "age : " << age << endl;
-	cout << "gender : : " << gender << endl;
+	cout << "gender :  " << gender << endl;
+	cout << "martial status : " << martial_status << endl; 
 
 }
 
@@ -45,6 +50,9 @@ void Person::setDetails(void)
 	cout << "gender : ";
 	cin >> gender;
 	cout << endl;
+	cout << "married / unmarried : ";
+	cin >> martial_status;
+
 
 }
 
