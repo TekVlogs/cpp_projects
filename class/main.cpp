@@ -60,7 +60,14 @@ int main(void)
 {
 	Person *p = new Person;
 	p->setDetails();
+
+
+	p->id =2;
 	p->getDetails();
+
+
+
+
 	delete p;
 
 }
